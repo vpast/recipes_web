@@ -1,0 +1,23 @@
+{
+  "name": "30 Minutes Chilli",
+  "minutesToCook": 20,
+
+  "ingredients": {
+    "meat": ["Ground Beef"],
+    "vegetables": ["Onions", "Tomatoes", "Kidney beans", "Diced tomatoes with Green Chillies"],
+    "spices": ["Seasoning mix dry chilli"],
+    "sauce": ["Tomato sauce"],
+    "other": ["Water", "Chedar cheese"]
+  },
+  "calories": {
+    "calories": 2320,
+    "carbs": 134,
+    "fat": 136,
+    "protein": 142 
+  },
+  "cookingSteps": [
+    "Cook beef and onions in large saucepan over medium-high heat 5-10 minutes or until beef is crumbled, cooked through, and no longer pink. Stir occasionally; drain.",
+    "Stir in seasoning mix. Add remaining ingredients (excluding cheese); bring to a boil. Reduce heat to medium; simmer 10 minutes, stirring several times.",
+    "Serve hot topped with the cheese and enjoy!"
+  ]
+}
