@@ -27,8 +27,8 @@ async function processFiles(files) {
     let splitedTemplates = files[i].split("templates\\")
     var rawHtml = await fs.readFile(files[i], "utf-8");
     allTemplates[splitedTemplates] = Handlebars.compile(rawHtml);
-    var lol =  allTemplates[splitedTemplates](newData);
-    console.log(lol)
+    var compiledTemplates =  allTemplates[splitedTemplates](newData);
+    console.log(compiledTemplates)
     // console.log(filesTemplate(rawHtml))
     // fs.writeFile(path.join(".", "output", files[i]), template(rawHtml));
   }
