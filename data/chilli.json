@@ -9,7 +9,7 @@
     "sauce": ["Tomato sauce"],
     "other": ["Water", "Chedar cheese"]
   },
-  "calories": {
+  "nutrition": {
     "calories": 2320,
     "carbs": 134,
     "fat": 136,
