@@ -1,0 +1,24 @@
+{
+  "name": "Baked Pork Chops",
+  "minutesToCook": 55,
+
+  "ingredients": {
+    "pork chops": { "chop": 6, "gram": 387 },
+    "Cream of mushroom soup": { "can": 1, "gram": 303 },
+    "Cream of celery soup": { "can": 1, "gram": 305 },
+    "Sour cream": { "cup": 1, "gram": 242 },
+    "Onions": { "unit": 1, "gram": 63 }
+  },
+  "nutrition": {
+    "calories": 1637,
+    "carbs": 55,
+    "fat": 104,
+    "protein": 115
+  },
+  "cookingSteps": [
+    "Preheat oven to 350 degrees F (175 degrees C).",
+    "Place pork chops in a 9x13 inch baking pan. Add the mushroom and celery soups. Stir to coat the pork chops.",
+    "Bake in preheated oven for 45 minutes, until meat is no longer pink inside and thermometer reads 145 degrees F (63 degrees C).",
+    "Remove from oven and stir sour cream into soup mixture. Sprinkle with French-fried onions. Serve immediately."
+  ]
+}

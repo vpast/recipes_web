@@ -3,17 +3,25 @@
   "minutesToCook": 20,
 
   "ingredients": {
-    "meat": ["Ground Beef"],
-    "vegetables": ["Onions", "Tomatoes", "Kidney beans", "Diced tomatoes with Green Chillies"],
-    "spices": ["Seasoning mix dry chilli"],
-    "sauce": ["Tomato sauce"],
-    "other": ["Water", "Chedar cheese"]
+    "meat": { "Ground Beef": { "piece": 1, "gram": 453 } },
+    "vegetables": {
+      "Onions": { "cup": "3/4", "gram": 120 },
+      "Tomatoes": { "cup": "1 3/4", "gram": 420 },
+      "Kidney beans": { "cup": "1 3/4", "gram": 448 },
+      "Diced tomatoes with Green Chillies": { "gram": 284 }
+    },
+    "spices": { "Seasoning mix dry chilli": { "gram": 33.8 } },
+    "sauce": { "Tomato sauce": { "gram": 245 } },
+    "other": {
+      "Water": { "cup": "1", "gram": 237 },
+      "Chedar cheese": { "cup": "1 shredded", "gram": 113 }
+    }
   },
   "nutrition": {
     "calories": 2320,
     "carbs": 134,
     "fat": 136,
-    "protein": 142 
+    "protein": 142
   },
   "cookingSteps": [
     "Cook beef and onions in large saucepan over medium-high heat 5-10 minutes or until beef is crumbled, cooked through, and no longer pink. Stir occasionally; drain.",
