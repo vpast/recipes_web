@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Some page</title>
-</head>
-<body>
-  <p>{{nutrition.calories}}, {{nutrition.carbs}}, {{nutrition.fat}}, {{nutrition.protein}}, {{cookingSteps}}</p>
-  <p>this is from page.html</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Some page</title>
+  </head>
+  <body>
+    <h1>{{name}}</h1>
+    <p>Minutes to cook - {{minutesToCook}}</p>
+    <p>Ingredients:</p>
+    <ul>
+      {{#each ingredients}}
+      <li>{{name}}: {{unit}}, {{gram}}g</li>
+      {{/each}}
+    </ul>
+    <p>Nutrion:</p>
+    <ul>
+      {{#each nutrition}}
+      <li>{{name}}: {{value}}g</li>
+      {{/each}}
+    </ul>
+    <h2>Cooking Steps:</h2>
+    <ol>
+      {{#each cookingSteps}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ol>
+  </body>
 </html>

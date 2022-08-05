@@ -2,19 +2,19 @@
   "name": "BBQ Tofu Sandwich",
   "minutesToCook": 55,
 
-  "ingredients": {
-    "whole-white bread": { "slice": 10, "gram": 280 },
-    "tofu": { "block": 1, "gram": 324 },
-    "Barbecue sauce": { "cup": "1 1/2", "gram": 375 },
-    "Tomatoes": { "unit": 1, "gram": 123 },
-    "Lettuce": { "leaf": 10, "gram": 240 }
-  },
-  "nutrition": {
-    "calories": 1879,
-    "carbs": 298,
-    "fat": 41,
-    "protein": 93
-  },
+  "ingredients": [
+    { "name": "Bread", "unit": "10 slice", "gram": 280 },
+    { "name": "Tofu", "unit": 1, "gram": 324 },
+    { "name": "Barbecue Sauce", "unit": "cup 1 1/2", "gram": 375 },
+    { "name": "Tomatoes", "unit": 1, "gram": 123 },
+    { "name": "Lettuce", "unit": "10 leaf", "gram": 240 }
+  ],
+  "nutrition": [
+   {"name": "Calories", "value": 1879},
+   {"name": "Carbs", "value": 298},
+   {"name": "Fat", "value": 41},
+   {"name": "Protein", "value": 93}
+  ],
   "cookingSteps": [
     "Preheat oven to 350°F.",
     "Prepare tofu by pressing out the water (one good strategy is to freeze in package, thaw in fridge, and then press. This will give it a better texture).",

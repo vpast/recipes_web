@@ -2,19 +2,19 @@
   "name": "Baked Pork Chops",
   "minutesToCook": 55,
 
-  "ingredients": {
-    "pork chops": { "chop": 6, "gram": 387 },
-    "Cream of mushroom soup": { "can": 1, "gram": 303 },
-    "Cream of celery soup": { "can": 1, "gram": 305 },
-    "Sour cream": { "cup": 1, "gram": 242 },
-    "Onions": { "unit": 1, "gram": 63 }
-  },
-  "nutrition": {
-    "calories": 1637,
-    "carbs": 55,
-    "fat": 104,
-    "protein": 115
-  },
+  "ingredients": [
+   {"name": "Pork Chops", "unit": "6 chop", "gram": 387 },
+   {"name": "Cream Of Mushroom Soup", "unit": "1 can", "gram": 303 },
+   {"name": "Cream Of Celery Soup", "unit": "1 can", "gram": 305 },
+   {"name": "Sour Cream", "unit": "1 can","gram": 242 },
+   {"name": "Onions", "unit": 1, "gram": 63 }
+  ],
+  "nutrition": [
+    {"name": "Calories", "value": 1637},
+    {"name": "Carbs", "value": 55},
+    {"name": "Fat", "value": 104},
+    {"name": "Protein", "value": 115}
+  ],
   "cookingSteps": [
     "Preheat oven to 350 degrees F (175 degrees C).",
     "Place pork chops in a 9x13 inch baking pan. Add the mushroom and celery soups. Stir to coat the pork chops.",
