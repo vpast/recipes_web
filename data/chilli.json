@@ -3,21 +3,36 @@
   "minutesToCook": 20,
 
   "ingredients": [
-    {"name": "Ground Beef", "unit": "1 piece", "gram": 453 },
-    {"name": "Onions", "unit": "cup 3/4", "gram": 120 },
-    {"name": "Tomatoes", "unit": "cup 1 3/4", "gram": 420 },
-    {"name": "Kidney Beans", "unit": "cup 1 3/4", "gram": 448 },
-    {"name": "Diced Tomatoes With Green Chillies", "unit": "10 oz","gram": 284 },
-    {"name": "Seasoning mix dry chilli Spices", "unit": "5 tbsp","gram": 33.8 },
-    {"name": "Tomato sauce", "unit": "cup 1" , "gram": 245 },
-    {"name": "Water", "unit": "cup 1", "gram": 237 },
-    {"name": "Chedar Cheese", "unit": "1 cup of shredded cheese", "gram": 113 }
+    { "name": "Ground Beef", "unit": "piece", "value": 1, "gram": 453 },
+    { "name": "Onions", "unit": "cup", "value": "3/4", "gram": 120 },
+    { "name": "Tomatoes", "unit": "cup", "value": "1 3/4", "gram": 420 },
+    { "name": "Kidney Beans", "unit": "cup", "value": "1 3/4", "gram": 448 },
+    {
+      "name": "Diced Tomatoes With Green Chillies",
+      "unit": "oz",
+      "value": 10,
+      "gram": 284
+    },
+    {
+      "name": "Seasoning mix dry chilli Spices",
+      "unit": "tbsp",
+      "value": 5,
+      "gram": 33.8
+    },
+    { "name": "Tomato sauce", "unit": "cup", "value": 1, "gram": 245 },
+    { "name": "Water", "unit": "cup", "value": 1, "gram": 237 },
+    {
+      "name": "Chedar Cheese",
+      "unit": "cup of shredded cheese",
+      "value": 1,
+      "gram": 113
+    }
   ],
   "nutrition": [
-    {"name": "Calories", "value": 2320},
-    {"name": "Carbs", "value": 134},
-    {"name": "Fat", "value": 136},
-    {"name": "Protein", "value": 142}
+    { "name": "Calories", "value": 2320 },
+    { "name": "Carbs", "value": 134 },
+    { "name": "Fat", "value": 136 },
+    { "name": "Protein", "value": 142 }
   ],
   "cookingSteps": [
     "Cook beef and onions in large saucepan over medium-high heat 5-10 minutes or until beef is crumbled, cooked through, and no longer pink. Stir occasionally; drain.",

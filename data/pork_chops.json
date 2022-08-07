@@ -3,11 +3,11 @@
   "minutesToCook": 55,
 
   "ingredients": [
-   {"name": "Pork Chops", "unit": "6 chop", "gram": 387 },
-   {"name": "Cream Of Mushroom Soup", "unit": "1 can", "gram": 303 },
-   {"name": "Cream Of Celery Soup", "unit": "1 can", "gram": 305 },
-   {"name": "Sour Cream", "unit": "1 can","gram": 242 },
-   {"name": "Onions", "unit": 1, "gram": 63 }
+   {"name": "Pork Chops", "unit": "chop", "value": 6,"gram": 387 },
+   {"name": "Cream Of Mushroom Soup", "unit": "can", "value": 1,"gram": 303 },
+   {"name": "Cream Of Celery Soup", "unit": "can", "value": 1,"gram": 305 },
+   {"name": "Sour Cream", "unit": "can","value": 1,"gram": 242 },
+   {"name": "Onions", "unit": "piece", "value": 1,"gram": 63 }
   ],
   "nutrition": [
     {"name": "Calories", "value": 1637},
