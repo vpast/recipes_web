@@ -3,17 +3,69 @@
   "minutesToCook": 55,
 
   "ingredients": [
-   {"name": "Pork Chops", "unit": "chop", "value": 6,"gram": 387 },
-   {"name": "Cream Of Mushroom Soup", "unit": "can", "value": 1,"gram": 303 },
-   {"name": "Cream Of Celery Soup", "unit": "can", "value": 1,"gram": 305 },
-   {"name": "Sour Cream", "unit": "can","value": 1,"gram": 242 },
-   {"name": "Onions", "unit": "piece", "value": 1,"gram": 63 }
+    {
+      "name": "Pork Chops",
+      "translations": { "en_US": "Pork Chops", "ru": "Свинные отбивные" },
+      "unit": "chop",
+      "value": 6,
+      "gram": 387
+    },
+    {
+      "name": "Cream Of Mushroom Soup",
+      "translations": {
+        "en_US": "Cream Of Mushroom Soup",
+        "ru": "Грибной суп со сливками"
+      },
+      "unit": "can",
+      "value": 1,
+      "gram": 303
+    },
+    {
+      "name": "Cream Of Celery Soup",
+      "translations": {
+        "en_US": "Cream Of Celery Soup",
+        "ru": "Суп из сельдерея со сливками"
+      },
+      "unit": "can",
+      "value": 1,
+      "gram": 305
+    },
+    {
+      "name": "Sour Cream",
+      "translations": { "en_US": "Sour Cream", "ru": "Сметана" },
+      "unit": "can",
+      "value": 1,
+      "gram": 242
+    },
+    {
+      "name": "Onions",
+      "translations": { "en_US": "Onions", "ru": "Лук" },
+      "unit": "piece",
+      "value": 1,
+      "gram": 63
+    }
   ],
   "nutrition": [
-    {"name": "Calories", "value": 1637},
-    {"name": "Carbs", "value": 55},
-    {"name": "Fat", "value": 104},
-    {"name": "Protein", "value": 115}
+    {
+      "name": "Calories",
+      "translations": { "en_US": "Calories", "ru": "Калории" },
+      "value": 1637
+    },
+    {
+      "name": "Carbs",
+      "translations": { "en_US": "Carbs", "ru": "Углеводы" },
+      "value": 55
+    },
+    {
+      "name": "Fat",
+      "translations": { "en_US": "Fat", "ru": "Жиры" },
+      "value": 104
+    },
+    {
+      "name": "Protein",
+      "translations": { "en_US": "Protein", "ru": "Белки" },
+      "value": 115
+    }
   ],
   "cookingSteps": [
     "Preheat oven to 350 degrees F (175 degrees C).",

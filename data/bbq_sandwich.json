@@ -3,17 +3,63 @@
   "minutesToCook": 55,
 
   "ingredients": [
-    { "name": "Bread", "unit": "slice", "value": 10, "gram": 280 },
-    { "name": "Tofu", "unit": "block", "value": 1, "gram": 324 },
-    { "name": "Barbecue Sauce", "unit": "cup", "value": "1 1/2", "gram": 375 },
-    { "name": "Tomatoes", "unit": "piece", "value": 1, "gram": 123 },
-    { "name": "Lettuce", "unit": "leaf", "value": 10, "gram": 240 }
+    {
+      "name": "Bread",
+      "translations": { "en_US": "Bread", "ru": "Хлеб" },
+      "unit": "slice",
+      "value": 10,
+      "gram": 280
+    },
+    {
+      "name": "Tofu",
+      "translations": { "en_US": "Tofu", "ru": "Тофу" },
+      "unit": "block",
+      "value": 1,
+      "gram": 324
+    },
+    {
+      "name": "Barbecue Sauce",
+      "translations": { "en_US": "Barbecue Sauce", "ru": "Барбекю соус" },
+      "unit": "cup",
+      "value": "1 1/2",
+      "gram": 375
+    },
+    {
+      "name": "Tomatoes",
+      "translations": { "en_US": "Tomatoes", "ru": "Помидоры" },
+      "unit": "piece",
+      "value": 1,
+      "gram": 123
+    },
+    {
+      "name": "Lettuce",
+      "translations": { "en_US": "Lattuce", "ru": "Салат-латук" },
+      "unit": "leaf",
+      "value": 10,
+      "gram": 240
+    }
   ],
   "nutrition": [
-    { "name": "Calories", "value": 1879 },
-    { "name": "Carbs", "value": 298 },
-    { "name": "Fat", "value": 41 },
-    { "name": "Protein", "value": 93 }
+    {
+      "name": "Calories",
+      "translations": { "en_US": "Calories", "ru": "Калории" },
+      "value": 1879
+    },
+    {
+      "name": "Carbs",
+      "translations": { "en_US": "Carbs", "ru": "Углеводы" },
+      "value": 298
+    },
+    {
+      "name": "Fat",
+      "translations": { "en_US": "Fat", "ru": "Жиры" },
+      "value": 41
+    },
+    {
+      "name": "Protein",
+      "translations": { "en_US": "Protein", "ru": "Белки" },
+      "value": 93
+    }
   ],
   "cookingSteps": [
     "Preheat oven to 350°F.",
