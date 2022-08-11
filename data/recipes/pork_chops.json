@@ -1,5 +1,6 @@
 {
   "name": "Baked Pork Chops",
+  "translations": { "en_US": "Baked Pork Chops", "ru": "Запеченные свиные отбивные" },
   "minutesToCook": 55,
 
   "ingredients": [

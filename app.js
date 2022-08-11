@@ -24,11 +24,11 @@ async function loadTemplates(files) {
 }
 
 async function createPages() {
-  const jsonsInDir = await fs.readdir("./data");
+  const jsonsInDir = await fs.readdir("./data/recipes");
 
   for (let i = 0; i < jsonsInDir.length; i++) {
     const jsonFile = await fs.readFile(
-      path.join("./data", jsonsInDir[i]),
+      path.join("./data/recipes", jsonsInDir[i]),
       "utf-8"
     );
     console.log(jsonsInDir[i]);
@@ -36,6 +36,6 @@ async function createPages() {
     var compiledTemplate = allTemplates["page"](newJsonData);
     var compiledFileName = path.basename(jsonsInDir[i], ".json");
     await fs.writeFile(path.join("output", compiledFileName + ".html"), compiledTemplate);
-    // console.log(compiledTemplate);
+    console.log(compiledTemplate);
   }
 }

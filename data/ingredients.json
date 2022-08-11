@@ -1,7 +1,4 @@
 {
-  "name": "30 Minutes Chilli",
-  "minutesToCook": 20,
-
   "ingredients": [
     {
       "name": "Ground Beef",
@@ -71,33 +68,68 @@
       "unit": "cup of shredded cheese",
       "value": 1,
       "gram": 113
+    },
+    {
+      "name": "Bread",
+      "translations": { "en_US": "Bread", "ru": "Хлеб" },
+      "unit": "slice",
+      "value": 10,
+      "gram": 280
+    },
+    {
+      "name": "Tofu",
+      "translations": { "en_US": "Tofu", "ru": "Тофу" },
+      "unit": "block",
+      "value": 1,
+      "gram": 324
+    },
+    {
+      "name": "Barbecue Sauce",
+      "translations": { "en_US": "Barbecue Sauce", "ru": "Барбекю соус" },
+      "unit": "cup",
+      "value": "1 1/2",
+      "gram": 375
+    },
+    {
+      "name": "Lettuce",
+      "translations": { "en_US": "Lattuce", "ru": "Салат-латук" },
+      "unit": "leaf",
+      "value": 10,
+      "gram": 240
+    },
+    {
+      "name": "Pork Chops",
+      "translations": { "en_US": "Pork Chops", "ru": "Свинные отбивные" },
+      "unit": "chop",
+      "value": 6,
+      "gram": 387
+    },
+    {
+      "name": "Cream Of Mushroom Soup",
+      "translations": {
+        "en_US": "Cream Of Mushroom Soup",
+        "ru": "Грибной суп со сливками"
+      },
+      "unit": "can",
+      "value": 1,
+      "gram": 303
+    },
+    {
+      "name": "Cream Of Celery Soup",
+      "translations": {
+        "en_US": "Cream Of Celery Soup",
+        "ru": "Суп из сельдерея со сливками"
+      },
+      "unit": "can",
+      "value": 1,
+      "gram": 305
+    },
+    {
+      "name": "Sour Cream",
+      "translations": { "en_US": "Sour Cream", "ru": "Сметана" },
+      "unit": "can",
+      "value": 1,
+      "gram": 242
     }
-  ],
-  "nutrition": [
-    {
-      "name": "Calories",
-      "translations": { "en_US": "Calories", "ru": "Калории" },
-      "value": 2320
-    },
-    {
-      "name": "Carbs",
-      "translations": { "en_US": "Carbs", "ru": "Углеводы" },
-      "value": 134
-    },
-    {
-      "name": "Fat",
-      "translations": { "en_US": "Fat", "ru": "Жиры" },
-      "value": 136
-    },
-    {
-      "name": "Protein",
-      "translations": { "en_US": "Protein", "ru": "Белки" },
-      "value": 142
-    }
-  ],
-  "cookingSteps": [
-    "Cook beef and onions in large saucepan over medium-high heat 5-10 minutes or until beef is crumbled, cooked through, and no longer pink. Stir occasionally; drain.",
-    "Stir in seasoning mix. Add remaining ingredients (excluding cheese); bring to a boil. Reduce heat to medium; simmer 10 minutes, stirring several times.",
-    "Serve hot topped with the cheese and enjoy!"
   ]
 }

@@ -1,0 +1,104 @@
+{
+  "name": "30 Minutes Chilli",
+  "translations": { "en_US": "30 Minutes Chilli", "ru": "Чили за 30 минут" },
+  "minutesToCook": 20,
+
+  "ingredients": [
+    {
+      "name": "Ground Beef",
+      "translations": { "en_US": "Ground Beef", "ru": "Говяжий фарш" },
+      "unit": "piece",
+      "value": 1,
+      "gram": 453
+    },
+    {
+      "name": "Onions",
+      "translations": { "en_US": "Onions", "ru": "Лук" },
+      "unit": "cup",
+      "value": "3/4",
+      "gram": 120
+    },
+    {
+      "name": "Tomatoes",
+      "translations": { "en_US": "Tomatoes", "ru": "Помидоры" },
+      "unit": "cup",
+      "value": "1 3/4",
+      "gram": 420
+    },
+    {
+      "name": "Kidney Beans",
+      "translations": { "en_US": "Kidney Beans", "ru": "Почечные бобы" },
+      "unit": "cup",
+      "value": "1 3/4",
+      "gram": 448
+    },
+    {
+      "name": "Diced Tomatoes With Green Chillies",
+      "translations": {
+        "en_US": "Diced Tomatoes With Green Chillies",
+        "ru": "Помидоры, нарезанные кубиками, с зелеными чили"
+      },
+      "unit": "oz",
+      "value": 10,
+      "gram": 284
+    },
+    {
+      "name": "Seasoning mix dry chilli Spices",
+      "translations": {
+        "en_US": "Seasoning mix dry chilli Spices",
+        "ru": "Смесь приправ сухой перец чили Специи"
+      },
+      "unit": "tbsp",
+      "value": 5,
+      "gram": 33.8
+    },
+    {
+      "name": "Tomato sauce",
+      "translations": { "en_US": "Tomato sauce", "ru": "Томатный соус" },
+      "unit": "cup",
+      "value": 1,
+      "gram": 245
+    },
+    {
+      "name": "Water",
+      "translations": { "en_US": "Water", "ru": "Вода" },
+      "unit": "cup",
+      "value": 1,
+      "gram": 237
+    },
+    {
+      "name": "Chedar Cheese",
+      "translations": { "en_US": "Chedar Cheese", "ru": "Сыр Чедар" },
+      "unit": "cup of shredded cheese",
+      "value": 1,
+      "gram": 113
+    }
+  ],
+  "nutrition": [
+    {
+      "name": "Calories",
+      "translations": { "en_US": "Calories", "ru": "Калории" },
+      "value": 2320
+    },
+    {
+      "name": "Carbs",
+      "translations": { "en_US": "Carbs", "ru": "Углеводы" },
+      "value": 134
+    },
+    {
+      "name": "Fat",
+      "translations": { "en_US": "Fat", "ru": "Жиры" },
+      "value": 136
+    },
+    {
+      "name": "Protein",
+      "translations": { "en_US": "Protein", "ru": "Белки" },
+      "value": 142
+    }
+  ],
+  "cookingSteps": [
+    "Cook beef and onions in large saucepan over medium-high heat 5-10 minutes or until beef is crumbled, cooked through, and no longer pink. Stir occasionally; drain.",
+    "Stir in seasoning mix. Add remaining ingredients (excluding cheese); bring to a boil. Reduce heat to medium; simmer 10 minutes, stirring several times.",
+    "Serve hot topped with the cheese and enjoy!"
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "name": "BBQ Tofu Sandwich",
+  "translations": { "en_US": "BBQ Tofu Sandwich", "ru": "Сэндвич с тофу с барбекю" },
   "minutesToCook": 55,
 
   "ingredients": [
