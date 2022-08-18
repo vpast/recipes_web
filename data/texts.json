@@ -1,0 +1,18 @@
+{
+  "Calories": {
+    "en_US": "Calories",
+    "ru": "Калории"
+  },
+  "Carbs": {
+    "en_US": "Carbs",
+    "ru": "Углеводы"
+  },
+  "Fat": {
+    "en_US": "Fat",
+    "ru": "Жиры"
+  },
+  "Protein": {
+    "en_US": "Protein",
+    "ru": "Белки"
+  }
+}

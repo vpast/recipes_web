@@ -1,135 +1,82 @@
 {
-  "ingredients": [
-    {
-      "name": "Ground Beef",
-      "translations": { "en_US": "Ground Beef", "ru": "Говяжий фарш" },
-      "unit": "piece",
-      "value": 1,
-      "gram": 453
-    },
-    {
-      "name": "Onions",
-      "translations": { "en_US": "Onions", "ru": "Лук" },
-      "unit": "cup",
-      "value": "3/4",
-      "gram": 120
-    },
-    {
-      "name": "Tomatoes",
-      "translations": { "en_US": "Tomatoes", "ru": "Помидоры" },
-      "unit": "cup",
-      "value": "1 3/4",
-      "gram": 420
-    },
-    {
-      "name": "Kidney Beans",
-      "translations": { "en_US": "Kidney Beans", "ru": "Почечные бобы" },
-      "unit": "cup",
-      "value": "1 3/4",
-      "gram": 448
-    },
-    {
-      "name": "Diced Tomatoes With Green Chillies",
-      "translations": {
-        "en_US": "Diced Tomatoes With Green Chillies",
-        "ru": "Помидоры, нарезанные кубиками, с зелеными чили"
-      },
-      "unit": "oz",
-      "value": 10,
-      "gram": 284
-    },
-    {
-      "name": "Seasoning mix dry chilli Spices",
-      "translations": {
-        "en_US": "Seasoning mix dry chilli Spices",
-        "ru": "Смесь приправ сухой перец чили Специи"
-      },
-      "unit": "tbsp",
-      "value": 5,
-      "gram": 33.8
-    },
-    {
-      "name": "Tomato sauce",
-      "translations": { "en_US": "Tomato sauce", "ru": "Томатный соус" },
-      "unit": "cup",
-      "value": 1,
-      "gram": 245
-    },
-    {
-      "name": "Water",
-      "translations": { "en_US": "Water", "ru": "Вода" },
-      "unit": "cup",
-      "value": 1,
-      "gram": 237
-    },
-    {
-      "name": "Chedar Cheese",
-      "translations": { "en_US": "Chedar Cheese", "ru": "Сыр Чедар" },
-      "unit": "cup of shredded cheese",
-      "value": 1,
-      "gram": 113
-    },
-    {
-      "name": "Bread",
-      "translations": { "en_US": "Bread", "ru": "Хлеб" },
-      "unit": "slice",
-      "value": 10,
-      "gram": 280
-    },
-    {
-      "name": "Tofu",
-      "translations": { "en_US": "Tofu", "ru": "Тофу" },
-      "unit": "block",
-      "value": 1,
-      "gram": 324
-    },
-    {
-      "name": "Barbecue Sauce",
-      "translations": { "en_US": "Barbecue Sauce", "ru": "Барбекю соус" },
-      "unit": "cup",
-      "value": "1 1/2",
-      "gram": 375
-    },
-    {
-      "name": "Lettuce",
-      "translations": { "en_US": "Lattuce", "ru": "Салат-латук" },
-      "unit": "leaf",
-      "value": 10,
-      "gram": 240
-    },
-    {
-      "name": "Pork Chops",
-      "translations": { "en_US": "Pork Chops", "ru": "Свинные отбивные" },
-      "unit": "chop",
-      "value": 6,
-      "gram": 387
-    },
-    {
-      "name": "Cream Of Mushroom Soup",
-      "translations": {
-        "en_US": "Cream Of Mushroom Soup",
-        "ru": "Грибной суп со сливками"
-      },
-      "unit": "can",
-      "value": 1,
-      "gram": 303
-    },
-    {
-      "name": "Cream Of Celery Soup",
-      "translations": {
-        "en_US": "Cream Of Celery Soup",
-        "ru": "Суп из сельдерея со сливками"
-      },
-      "unit": "can",
-      "value": 1,
-      "gram": 305
-    },
-    {
-      "name": "Sour Cream",
-      "translations": { "en_US": "Sour Cream", "ru": "Сметана" },
-      "unit": "can",
-      "value": 1,
-      "gram": 242
+  "GroundBeef":
+  {
+    "translations": { "en_US": "Ground Beef", "ru": "Говяжий фарш" }
+  },
+  "Onions":
+  {
+    "translations": { "en_US": "Onions", "ru": "Лук" }
+  },
+  "Tomatoes": 
+  {
+    "translations": { "en_US": "Tomatoes", "ru": "Помидоры" }
+  },
+  "KidneyBeans":
+  {
+    "translations": { "en_US": "Kidney Beans", "ru": "Почечные бобы" }
+  },
+  "TomatoesWithGC":
+  {
+    "translations": {
+      "en_US": "Diced Tomatoes With Green Chillies",
+      "ru": "Помидоры, нарезанные кубиками, с зелеными чили"
     }
-  ]
+  },
+  "Seasoningmixdry":
+  {
+    "translations": {
+      "en_US": "Seasoning mix dry chilli Spices",
+      "ru": "Смесь приправ сухой перец чили Специи"
+    }
+  },
+  "TomatoSauce":
+  {
+    "translations": { "en_US": "Tomato sauce", "ru": "Томатный соус" }
+  },
+  "Water":
+  {
+    "translations": { "en_US": "Water", "ru": "Вода" }
+  },
+  "ChedarCheese":
+  {
+    "translations": { "en_US": "Chedar Cheese", "ru": "Сыр Чедар" }
+  },
+  "Bread":
+  {
+    "translations": { "en_US": "Bread", "ru": "Хлеб" }
+  },
+  "Tofu":
+  {
+    "translations": { "en_US": "Tofu", "ru": "Тофу" }
+  },
+  "BarbecueSauce":
+  {
+    "translations": { "en_US": "Barbecue Sauce", "ru": "Барбекю соус" }
+  },
+  "Lettuce":
+  {
+    "translations": { "en_US": "Lattuce", "ru": "Салат-латук" }
+  },
+  "PorkChops":
+  {
+    "translations": { "en_US": "Pork Chops", "ru": "Свинные отбивные" }
+  },
+  "MushroomSoupCream":
+  {
+    "translations": {
+      "en_US": "Cream Of Mushroom Soup",
+      "ru": "Грибной суп со сливками"
+    }
+  },
+  "CreamOfCelerySoup":
+  {
+    "translations": {
+      "en_US": "Cream Of Celery Soup",
+      "ru": "Суп из сельдерея со сливками"
+    }
+  },
+  "SourCream":
+  {
+    "translations": { "en_US": "Sour Cream", "ru": "Сметана" }
+  }
 }
