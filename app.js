@@ -38,11 +38,19 @@ async function createPages() {
     // console.log(jsonsInDir[i]);
     const recipe = JSON.parse(jsonFile);
     const ingredientList = recipe["ingredients"];
+    const nutritionList = recipe["nutrition"];
     
     for (let j = 0; j < ingredientList.length; j++) {
       const item = ingredientList[j];
       const name = item["name"];
       item["english"] = ingredientsData[name]["translations"]["en_US"];
+      // console.log(item);
+    }
+
+    for (let k = 0; k < nutritionList.length; k++) {
+      const item = nutritionList[k];
+      const name = item["name"];
+      item["english"] = translations[name]["en_US"];
       console.log(item);
     }
     
